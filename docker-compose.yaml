@@ -94,7 +94,7 @@ services:
     container_name: attu-milvus-gui
     image: zilliz/attu:latest
     environment:
-      MILVUS_URL: "3.235.186.188:19530"
+      MILVUS_URL: "milvus-standalone:19530"
     ports:
       - "8008:3000"
 
